@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Utilidades de la GRID de Bootstra</title>
+	´<link rel="stylesheet" type="text/css" href="bootstrap5/css/bootstrap.min.css">
+
+	<style type="text/css">
+		.row
+	{
+		background-color: lightblue;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.columnas
+	{
+		background-color: lightskyblue;
+		text-align: center;
+		padding: 10px;
+		border:1px solid black;
+	}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<h3>ordenar columnas con order-1 al order-5</h3>
+		<div class="row">
+			<div class="columnas col order-1 order-md-1">Columna 1</div>
+			<div class="columnas col order-2 order-md-2">Columna 2</div>
+			<div class="columnas col order-3 order-md-3">Columna 3</div>
+			<div class="columnas col order-4 order-md-4">Columna 4</div>
+		</div>
+
+		<h3>ordenar columnas con order-last y order-first</h3>
+		<div class="row">
+			<div class="columnas col order-last">Columna 1</div>
+			<div class="columnas col order-first">Columna 2</div>
+			<div class="columnas col">Columna 3</div>
+			<div class="columnas col">Columna 4</div>
+		</div>
+
+		<h3>ordenar columnas con offset</h3>
+		<div class="row">
+			<div class="columnas col-3 offset-2">Columna 1</div>
+		</div>
+		<div class="row">
+			<div class="columnas col-3 offset-5">Columna 1</div>
+		</div>
+		<div class="row">
+			<div class="columnas col-3 offset-8">Columna 1</div>
+		</div>
+
+	</div>
+
+   
+</body>
+</html>
